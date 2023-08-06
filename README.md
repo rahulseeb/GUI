@@ -23,9 +23,11 @@ text box appears under the reset button which allows you to type in data.
 3) If by chance you entered any incorrect information in the moves category or the data category click the remove button for
    options which allow you to remove the data you entered which is incorrect (starting at index 1). You can do so
    by typing m for moves or t for tooltips to reset the information. So if I entered 2 items from tooltips (the data category)
-   I would enter t 2 to remove the 2nd value or t 1 to remove the first value.
+   I would enter t 2 to remove the 2nd value or t 1 to remove the first value. Other categories which are not moves or data
+   will not have multiple instances of the same data. Keywords and start vars will only have instance of data per category,
+   which can simply be changed by entering the information again to overwrite the current information stored in the dictionary.
 
-4) If you are satisfied with your dictionary you created you can click the finish button which will then promt you to type in
+5) If you are satisfied with your dictionary you created you can click the finish button which will then promt you to type in
    a name of the .json file you would create to store the dictionary in. Just type in the name (no .json at the end this is done
    automatically). Click the Finish button again after typing in the name and it will be created. The .json file will be created
    in the same directory as your python files by default.
